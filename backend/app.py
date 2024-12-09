@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Configurações do banco de dados MySQL
 # Coloque seus dados aqui
-app.config['MYSQL_USER'] = 'nome do workbench(normalmente root)'
-app.config['MYSQL_PASSWORD'] = 'senha workbench'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'enzo'
 app.config['MYSQL_DB'] = 'db_EPI' #Nome do banco não altere
 app.config['MYSQL_HOST'] = 'localhost' #Nome do host não altere
 
